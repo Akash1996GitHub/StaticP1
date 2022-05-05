@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AC's CAR Site</title>
+</head>
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url('img/pablo-martinez-Ja7IFmlmKd8-unsplash.jpg');
+    }
+
+    .leftside {
+        /* border: 3px solid green; */
+        display: inline-block;
+        position: absolute;
+        left: 39px;
+        top: 31px;
+        }
+
+    .leftside img {
+        width: 159px;
+        border-radius: 19px;
+    }
+
+    .leftside div {
+        text-align: center;
+        font-style: italic;
+        color: white;
+        background-color: black;
+    }
+
+    .midside {
+        /* border: 3px solid yellow; */
+        display: block;
+        width: 51%;
+        margin: 31px auto;
+        text-align: center;    }
+
+    .navbar {
+        display: inline-block;
+        margin: 31px;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 37px;
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        padding: 3px 35px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        color: black;
+        text-decoration: none;
+    }
+
+    .rightside {
+        /* border: 3px solid red; */
+        font-size: large;
+        display: inline-block;
+        position: absolute;
+        right: 59px;
+        top: 51px;
+    }
+
+    .btn {
+        padding: 9px;
+        width: 51px;
+    }
+
+    .rightside input {
+        margin: 3px;
+        padding: 9px;
+    }
+
+    .btn:hover {
+        background-color: rgb(67, 119, 214);
+    }
+
+    .container {
+        border: 3px solid rgb(67, 119, 214);
+        margin: 139px 191px;
+        padding: 131px 51px;
+        width: 33%;
+        border-radius: 61px;
+        text-align: center;
+    }
+    .container h1{font-size:xxx-large;
+    color: white;}
+    .forminput input{
+        font-size: x-large;
+    display: block;
+    margin: 19px auto;
+    padding: 9px 59px;
+    width: 35%;
+    border: 3px solid black;
+
+    }
+
+</style>
+
+<body>
+    <header class="headersclass">
+        <div class="leftside">
+            <img src="img/chris-liverani-HUJDz6CJEaM-unsplash.jpg" alt="">
+            <div>Akash_Motor_Company</div>
+        </div>
+
+        <div class="midside">
+            <ul class="navbar">
+                <li><a href="..." class="active">Home</a></li>
+                <li><a href="...">Inside</a>
+                <ul>
+                    <li><a href="...">Engine Specifications</a></li>
+                    <li><a href="...">Interior</a></li>
+                </ul>
+            </li>
+                <li><a href="...">Outside</a>
+                <ul>
+                    <li><a href="...">Outer Design</a></li>
+                    <li><a href="...">Exterior</a></li>
+                </ul>
+            </li>
+                <li><a href="...">Contact us</a></li>
+            </ul>
+        </div>
+
+        <div class="rightside"><input type="text" placeholder="Any car name">
+            <button>
+                <div class="btn">Search</div>
+            </button>
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>For owning a new Car</h1>
+        <form action="backendphp"></form>
+<div class="forminput">
+    <input type="text"placeholder="Enter the name"></div>
+<div class="forminput">
+    <input type="text"placeholder="Enter the age"></div>
+<div class="forminput">
+    <input type="text"placeholder="Enter the locality"></div>
+    <button><div class="btn">Submit</div></button>
+    </div>
+</body>
+
+</html>
