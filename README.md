@@ -1,2 +1,2 @@
 # StaticP1
-Simple Car site with Static type
+Simple Car site with Static type internal css.
